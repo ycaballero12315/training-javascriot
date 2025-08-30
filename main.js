@@ -45,3 +45,15 @@ let other_result = arr => {
     return result
 }
 console.log(`este es de foreach ${other_result(arr)}`)
+
+let objeto = {
+    nombre: "Pedro",
+    saludar: function() {
+        console.log("Hola, soy " + this.nombre);
+    }
+};
+objeto.saludar();
+
+console.log(y);
+var y = 5;
+console.log(y);

@@ -24,3 +24,9 @@ console.log(mayores(persons).sort((a, b)=>a.age - b.age))
 
 const max_age = persons => persons.filter(person=>person.age>18).sort((a,b)=> a.age - b.age)
 console.log(max_age(persons))
+
+let obj = {nombre: "Ana", edad: 28};
+let json = JSON.stringify(obj);
+let back = JSON.parse(json);
+console.log(typeof json);
+console.log(typeof back);
